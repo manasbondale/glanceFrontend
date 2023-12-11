@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+	background-color:#252628;
+	font-variant-numeric:tabular-nums;
+	color: white;
+}
+.code {
+  font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}
+
+
+th, td{
+	@apply border border-slate-400;
+	word-wrap: break-word;
+	overflow:hidden;
+}
+
+table{
+	position:absolute;
+	top:100px;
+	left:50px;
+	table-layout:fixed;
+}
+
+.navbarGlance{
+	position : absolute;
+	top: 40px;
+	left: 50px;
+}
