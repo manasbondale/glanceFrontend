@@ -172,7 +172,7 @@ export default function Glance(){
 			tableData.currentHeaders.length && tableData.currentHeaders.map( (item, index) => {
 				if (item.length > 15 )
 					return <th key={index} className="text-sm">{Human(item)}</th>
-						else return <th key={index} className="text-md">{Human(item)}</th>
+				else return <th key={index} className="text-md">{Human(item)}</th>
 			})
 		}
 		</tr>
@@ -180,8 +180,6 @@ export default function Glance(){
 		<tbody>
 		{
 			tableData.csvData.length && tableData.csvData.map( (item, index) => {
-
-				//const tableRow = item.map( (item, index) => { return (<td key={index}>{item[tableData.currentHeaders[index]]} </td>) })
 					return (
 						<tr key={index}>
 						{ 
