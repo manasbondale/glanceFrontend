@@ -1,17 +1,16 @@
 # This is the frontend repo for Glance
 
-**Kaggle Data Viewer**
+**Glance: Kaggle Data Viewer**
 
-![Kaggle Data Viewer Logo](kaggle_data_viewer_logo.png)
 
 **Introduction:**
 
-Kaggle Data Viewer is a React.js based frontend project designed to allow users to easily read Kaggle data CSV files directly in their browsers. Users can simply paste Kaggle API links into the web application, which then utilizes the Kaggle API to download the CSV files to the client-side indexedDB storage. This project serves as a showcase for API usage, React-based client-side page routing, usage of indexedDB for storage, as well as demonstrating techniques such as using for loops in JSX to create tables and conditional JSX to enhance table column headers readability.
+Glance is a React.js based frontend project designed to allow users to easily read Kaggle data CSV files directly in their browsers. Users can simply paste Kaggle API links into the web application, which then utilizes the Kaggle API to download the CSV files to the client-side indexedDB storage. This project serves as a showcase for API usage, React-based client-side page routing, usage of indexedDB for storage, as well as demonstrating techniques such as using for loops in JSX to create tables and conditional JSX to enhance table column headers readability.
 
 **Key Features:**
 
 1. **Kaggle API Integration:**
-   Kaggle Data Viewer seamlessly integrates with the Kaggle API, allowing users to paste Kaggle API links and retrieve the associated CSV files directly within the browser.
+   Glance seamlessly integrates with the Kaggle API, allowing users to paste Kaggle API links and retrieve the associated CSV files directly within the browser.
 
 2. **Client-Side IndexedDB Storage:**
    CSV files downloaded from Kaggle are stored locally on the client-side using indexedDB, enabling users to access and view the data offline without requiring repeated downloads.
