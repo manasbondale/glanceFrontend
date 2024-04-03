@@ -35,22 +35,15 @@ Glance is a React.js based frontend project designed to allow users to easily re
    ```
    npm install
    ```
-   or
-   ```
-   yarn install
-   ```
+   
 
 3. **Start Development Server:**
    Run the development server to launch the web application locally:
 
    ```
-   npm start
+   npm run webpack-start & npm run tailwind-watch
    ```
-   or
-   ```
-   yarn start
-   ```
-
+ 
 4. **Access Web Application:**
    Open your web browser and navigate to the provided local development server URL to access the Kaggle Data Viewer web application.
 
