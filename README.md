@@ -67,7 +67,7 @@ Contributions to Glance are welcome and encouraged. If you have ideas for improv
 
 **License:**
 
-Kaggle Data Viewer is licensed under the NIT license. See the LICENSE file for details.
+Kaggle Data Viewer is licensed under the MIT license. See the LICENSE file for details.
 
 **Contact:**
 
